@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="sheetname" value="FF_data"/>
+  <test name="FFTest(failed)" parallel="none">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="sheetname" value="FF_data"/>
+    <classes>
+      <class name="com.testhouse.TestScript.CustomerServices">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="customerServiceType2"/>
+          <include name="customerServiceType3"/>
+          <include name="customerServiceType6"/>
+          <include name="customerServiceType5"/>
+        </methods>
+      </class> <!-- com.testhouse.TestScript.CustomerServices -->
+      <class name="com.testhouse.TestScript.AccountAdmin">
+        <methods>
+          <include name="nonOptimisticStandardSchedule"/>
+          <include name="optimisticStandardSchedule"/>
+        </methods>
+      </class> <!-- com.testhouse.TestScript.AccountAdmin -->
+      <class name="com.testhouse.TestScript.CustomerBilling">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testhouse.TestScript.CustomerBilling -->
+    </classes>
+  </test> <!-- FFTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

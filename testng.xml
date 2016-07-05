@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+	<test name="FFTest">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="com.testhouse.TestScript.AccountAdmin" />
+			<class name="com.testhouse.TestScript.CustomerServices" />
+			<class name="com.testhouse.TestScript.CustomerBilling" />
+		</classes>
+	</test>
+</suite>

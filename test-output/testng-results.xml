@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" total="11" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+    <line>
+      <![CDATA[STEP3]]>
+    </line>
+    <line>
+      <![CDATA[STEP4]]>
+    </line>
+    <line>
+      <![CDATA[STEP5]]>
+    </line>
+    <line>
+      <![CDATA[STEP6]]>
+    </line>
+    <line>
+      <![CDATA[STEP7]]>
+    </line>
+    <line>
+      <![CDATA[STEP8]]>
+    </line>
+    <line>
+      <![CDATA[STEP9]]>
+    </line>
+    <line>
+      <![CDATA[STEP10]]>
+    </line>
+    <line>
+      <![CDATA[STEP11]]>
+    </line>
+    <line>
+      <![CDATA[STEP12]]>
+    </line>
+    <line>
+      <![CDATA[STEP13]]>
+    </line>
+    <line>
+      <![CDATA[STEP14]]>
+    </line>
+    <line>
+      <![CDATA[STEP15]]>
+    </line>
+    <line>
+      <![CDATA[STEP16]]>
+    </line>
+    <line>
+      <![CDATA[STEP17]]>
+    </line>
+    <line>
+      <![CDATA[STEP18]]>
+    </line>
+    <line>
+      <![CDATA[STEP19]]>
+    </line>
+    <line>
+      <![CDATA[STEP20]]>
+    </line>
+    <line>
+      <![CDATA[STEP21]]>
+    </line>
+    <line>
+      <![CDATA[STEP22]]>
+    </line>
+    <line>
+      <![CDATA[STEP23]]>
+    </line>
+    <line>
+      <![CDATA[STEP24]]>
+    </line>
+    <line>
+      <![CDATA[STEP25]]>
+    </line>
+    <line>
+      <![CDATA[STEP26]]>
+    </line>
+    <line>
+      <![CDATA[STEP27]]>
+    </line>
+    <line>
+      <![CDATA[STEP28]]>
+    </line>
+    <line>
+      <![CDATA[STEP29]]>
+    </line>
+    <line>
+      <![CDATA[STEP30]]>
+    </line>
+    <line>
+      <![CDATA[STEP31]]>
+    </line>
+    <line>
+      <![CDATA[STEP32]]>
+    </line>
+    <line>
+      <![CDATA[STEP33]]>
+    </line>
+    <line>
+      <![CDATA[STEP34]]>
+    </line>
+    <line>
+      <![CDATA[STEP35]]>
+    </line>
+    <line>
+      <![CDATA[STEP36]]>
+    </line>
+    <line>
+      <![CDATA[STEP37]]>
+    </line>
+    <line>
+      <![CDATA[STEP38]]>
+    </line>
+    <line>
+      <![CDATA[STEP39]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3252215" started-at="2016-06-30T12:51:31Z" finished-at="2016-06-30T13:45:43Z">
+    <groups>
+    </groups>
+    <test name="FFTest" duration-ms="3252215" started-at="2016-06-30T12:51:31Z" finished-at="2016-06-30T13:45:43Z">
+      <class name="com.testhouse.TestScript.CustomerBilling">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testhouse.TestScript.CustomerBilling@1e67b872]" name="setUp" is-config="true" duration-ms="14004" started-at="2016-06-30T18:28:43Z" finished-at="2016-06-30T18:28:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="customerBillingCheckDetails(java.util.HashMap)[pri:0, instance:com.testhouse.TestScript.CustomerBilling@1e67b872]" name="customerBillingCheckDetails" duration-ms="137588" started-at="2016-06-30T18:28:57Z" data-provider="databinding" finished-at="2016-06-30T18:31:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=vvijayakumar, ReferenceNumber=DOVECU4794462, Password=Testhouse@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[STEP5]]>
+            </line>
+            <line>
+              <![CDATA[STEP6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerBillingCheckDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testhouse.TestScript.CustomerBilling@1e67b872]" name="tearDown" is-config="true" duration-ms="4290" started-at="2016-06-30T18:31:15Z" finished-at="2016-06-30T18:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testhouse.TestScript.CustomerBilling -->
+      <class name="com.testhouse.TestScript.CustomerServices">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="setUp" is-config="true" duration-ms="15223" started-at="2016-06-30T18:21:33Z" finished-at="2016-06-30T18:21:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="customerServiceType1(java.util.HashMap)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="customerServiceType1" duration-ms="410018" started-at="2016-06-30T18:21:48Z" data-provider="databinding" finished-at="2016-06-30T18:28:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpiryDate=06, Address=DOVETAIL SERVICES 800 GUILLAT AVENUE KENT SCIENCE PARK, Title=Mr, Postcode=ME98GU, Card=Credit card, Brand=BBC SKY AT NIGHT, Firstname=Vish, PromotionName=CCPROM20-6, Username=vvijayakumar, CustomerName=Vishnu, Client=IMMEDIATE MEDIA, Card1=4444333322221111, Surname=Test, ExpiryYear=2018, Password=Testhouse@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+            <line>
+              <![CDATA[STEP3]]>
+            </line>
+            <line>
+              <![CDATA[STEP4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerServiceType1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="tearDown" is-config="true" duration-ms="5226" started-at="2016-06-30T18:28:38Z" finished-at="2016-06-30T18:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="setUp" is-config="true" duration-ms="14099" started-at="2016-06-30T18:31:20Z" finished-at="2016-06-30T18:31:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="customerServiceType2(java.util.HashMap)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="customerServiceType2" duration-ms="241792" started-at="2016-06-30T18:31:34Z" data-provider="databinding" finished-at="2016-06-30T18:35:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Address=DOVETAIL SERVICES 800 GUILLAT AVENUE KENT SCIENCE PARK, Title=Mr, SortCode=111111, Postcode=ME98GU, Card=Direct Debit, Brand=BBC SKY AT NIGHT, Firstname=Vish, AccNumber=11111111, PromotionName=PRO20-6, Username=vvijayakumar, AccHolderName=Vishnu, Client=IMMEDIATE MEDIA, Surname=Test, Password=Testhouse@123}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
+            <full-stacktrace>
+              <![CDATA[[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1899)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1879)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:778)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[STEP7]]>
+            </line>
+            <line>
+              <![CDATA[STEP8]]>
+            </line>
+            <line>
+              <![CDATA[STEP9]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerServiceType2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="tearDown" is-config="true" duration-ms="4243" started-at="2016-06-30T18:35:36Z" finished-at="2016-06-30T18:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="setUp" is-config="true" duration-ms="14001" started-at="2016-06-30T18:35:41Z" finished-at="2016-06-30T18:35:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="customerServiceType3(java.util.HashMap)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="customerServiceType3" duration-ms="229066" started-at="2016-06-30T18:35:55Z" data-provider="databinding" finished-at="2016-06-30T18:39:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpiryDate=06, Address=DOVETAIL SERVICES 800 GUILLAT AVENUE KENT SCIENCE PARK, GTitle=Mr, Title=Mr, Postcode=ME98GU, GSurname=Test, GAddress=DOVETAIL SERVICES 800 GUILLAT AVENUE KENT SCIENCE PARK, Card=Credit card, GPostcode=ME98GU, Brand=BBC SKY AT NIGHT, Firstname=Vish, PromotionName=CCPROM20-6, Username=vvijayakumar, CustomerName=Vishnu, Client=IMMEDIATE MEDIA, Card1=4444333322221111, Surname=Test, GFirstname=Vish, ExpiryYear=2018, Password=Testhouse@123}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
+            <full-stacktrace>
+              <![CDATA[[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1899)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1879)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:778)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[STEP10]]>
+            </line>
+            <line>
+              <![CDATA[STEP11]]>
+            </line>
+            <line>
+              <![CDATA[STEP12]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerServiceType3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="tearDown" is-config="true" duration-ms="4384" started-at="2016-06-30T18:39:44Z" finished-at="2016-06-30T18:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="setUp" is-config="true" duration-ms="13554" started-at="2016-06-30T18:39:48Z" finished-at="2016-06-30T18:40:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="customerServiceType4(java.util.HashMap)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="customerServiceType4" duration-ms="354977" started-at="2016-06-30T18:40:02Z" data-provider="databinding" finished-at="2016-06-30T18:45:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpiryDate=06, Address=DOVETAIL SERVICES 800 GUILLAT AVENUE KENT SCIENCE PARK, Title=Mr, Postcode=ME98GU, Card=Credit card, Brand=BBC SKY AT NIGHT, Firstname=Vish, PromotionName=PRODPROM21-6, Username=vvijayakumar, CustomerName=Vishnu, Client=IMMEDIATE MEDIA, Card1=4444333322221111, Surname=Test, ExpiryYear=2018, Password=Testhouse@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[STEP13]]>
+            </line>
+            <line>
+              <![CDATA[STEP14]]>
+            </line>
+            <line>
+              <![CDATA[STEP15]]>
+            </line>
+            <line>
+              <![CDATA[STEP16]]>
+            </line>
+            <line>
+              <![CDATA[STEP17]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerServiceType4 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="tearDown" is-config="true" duration-ms="6341" started-at="2016-06-30T18:45:57Z" finished-at="2016-06-30T18:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="setUp" is-config="true" duration-ms="13666" started-at="2016-06-30T18:46:03Z" finished-at="2016-06-30T18:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="customerServiceTypeSearch(java.util.HashMap)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="customerServiceTypeSearch" duration-ms="804399" started-at="2016-06-30T18:46:17Z" data-provider="databinding" finished-at="2016-06-30T18:59:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Email=someaddress@dovetail.com
+
+, AddressLine=82 CASTLE STREET, FirstName=TESTER, CCNumber=4444333322221111, SortCode=111111, AccountNumber=11111111, Brand=BBC SKY AT NIGHT, CompanyName=Dovetail, CustomerReference=DOVECU4347472, Username=vvijayakumar, Country=United Kingdom, LastName=TEST, Client=IMMEDIATE MEDIA, PostCode=LE10 1DD, Password=Testhouse@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[STEP18]]>
+            </line>
+            <line>
+              <![CDATA[STEP19]]>
+            </line>
+            <line>
+              <![CDATA[STEP20]]>
+            </line>
+            <line>
+              <![CDATA[STEP21]]>
+            </line>
+            <line>
+              <![CDATA[STEP22]]>
+            </line>
+            <line>
+              <![CDATA[STEP23]]>
+            </line>
+            <line>
+              <![CDATA[STEP24]]>
+            </line>
+            <line>
+              <![CDATA[STEP25]]>
+            </line>
+            <line>
+              <![CDATA[STEP26]]>
+            </line>
+            <line>
+              <![CDATA[STEP27]]>
+            </line>
+            <line>
+              <![CDATA[STEP28]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerServiceTypeSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="tearDown" is-config="true" duration-ms="4290" started-at="2016-06-30T18:59:41Z" finished-at="2016-06-30T18:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="setUp" is-config="true" duration-ms="13274" started-at="2016-06-30T18:59:46Z" finished-at="2016-06-30T18:59:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="customerServiceType5(java.util.HashMap)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="customerServiceType5" duration-ms="394301" started-at="2016-06-30T18:59:59Z" data-provider="databinding" finished-at="2016-06-30T19:06:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Address=DOVETAIL SERVICES 800 GUILLAT AVENUE KENT SCIENCE PARK, GTitle=Mr, Title=Mr, SortCode=111111, Postcode=ME98GU, GSurname=Test, GAddress=DOVETAIL SERVICES 800 GUILLAT AVENUE KENT SCIENCE PARK, Card=Direct Debit, GPostcode=ME98GU, Brand=BBC SKY AT NIGHT, Firstname=Vish, AccNumber=11111111, PromotionName=PRO20-6, Username=vvijayakumar, AccHolderName=Vishnu, Client=IMMEDIATE MEDIA, Surname=Test, GFirstname=Vish, Password=Testhouse@123}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
+            <full-stacktrace>
+              <![CDATA[[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1899)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1879)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:778)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[STEP29]]>
+            </line>
+            <line>
+              <![CDATA[STEP30]]>
+            </line>
+            <line>
+              <![CDATA[STEP31]]>
+            </line>
+            <line>
+              <![CDATA[STEP32]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerServiceType5 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="tearDown" is-config="true" duration-ms="4463" started-at="2016-06-30T19:06:34Z" finished-at="2016-06-30T19:06:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="setUp" is-config="true" duration-ms="13667" started-at="2016-06-30T19:06:38Z" finished-at="2016-06-30T19:06:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="customerServiceType6(java.util.HashMap)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="customerServiceType6" duration-ms="315332" started-at="2016-06-30T19:06:52Z" data-provider="databinding" finished-at="2016-06-30T19:12:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Brand=BBC SKY AT NIGHT, Firstname=Vish, PromotionName=FREEPRO20-6, Address=DOVETAIL SERVICES 800 GUILLAT AVENUE KENT SCIENCE PARK, Username=vvijayakumar, Title=Mr, Client=IMMEDIATE MEDIA, Surname=Test, Postcode=ME98GU, Password=Testhouse@123, Card=Free}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
+            <full-stacktrace>
+              <![CDATA[[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1899)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1879)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:778)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- atu.testng.reports.exceptions.ATUReporterStepFailedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[STEP33]]>
+            </line>
+            <line>
+              <![CDATA[STEP34]]>
+            </line>
+            <line>
+              <![CDATA[STEP35]]>
+            </line>
+            <line>
+              <![CDATA[STEP36]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerServiceType6 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="tearDown" is-config="true" duration-ms="4243" started-at="2016-06-30T19:12:07Z" finished-at="2016-06-30T19:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="setUp" is-config="true" duration-ms="13382" started-at="2016-06-30T19:12:12Z" finished-at="2016-06-30T19:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cSServiceAmend(java.util.HashMap)[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="cSServiceAmend" duration-ms="193298" started-at="2016-06-30T19:12:25Z" data-provider="databinding" finished-at="2016-06-30T19:15:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=vvijayakumar, ReferenceNumber=DOVECU286338, NewAddress=New Address, NewName=RAGHAV, Client=IMMEDIATE MEDIA, Password=Testhouse@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[STEP37]]>
+            </line>
+            <line>
+              <![CDATA[STEP38]]>
+            </line>
+            <line>
+              <![CDATA[STEP39]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cSServiceAmend -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testhouse.TestScript.CustomerServices@42d3bd8b]" name="tearDown" is-config="true" duration-ms="5195" started-at="2016-06-30T19:15:38Z" finished-at="2016-06-30T19:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testhouse.TestScript.CustomerServices -->
+      <class name="com.testhouse.TestScript.AccountAdmin">
+        <test-method status="FAIL" signature="optimisticStandardSchedule(java.util.HashMap)[pri:0, instance:com.testhouse.TestScript.AccountAdmin@5d624da6]" name="optimisticStandardSchedule" duration-ms="0" started-at="2016-06-30T18:21:33Z" data-provider="databinding" finished-at="2016-06-30T18:21:33Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.Exception: optimisticStandardSchedule_START element is not found at column : 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.Exception: optimisticStandardSchedule_START element is not found at column : 0
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: java.lang.Exception: optimisticStandardSchedule_START element is not found at column : 0
+	at automation_home.ddf.abstractwrapper.AbstractExcelWrapper.getRowIndexForStartEndElement(AbstractExcelWrapper.java:136)
+	at automation_home.ddf.wrapperimpl.ExcelWrapper.retrieveTestData(ExcelWrapper.java:48)
+	at com.testhouse.TestScript.AccountAdmin.databinding(AccountAdmin.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- optimisticStandardSchedule -->
+        <test-method status="FAIL" signature="nonOptimisticStandardSchedule(java.util.HashMap)[pri:0, instance:com.testhouse.TestScript.AccountAdmin@5d624da6]" name="nonOptimisticStandardSchedule" duration-ms="0" started-at="2016-06-30T18:31:20Z" data-provider="databinding" finished-at="2016-06-30T18:31:20Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.Exception: nonOptimisticStandardSchedule_START element is not found at column : 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.Exception: nonOptimisticStandardSchedule_START element is not found at column : 0
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: java.lang.Exception: nonOptimisticStandardSchedule_START element is not found at column : 0
+	at automation_home.ddf.abstractwrapper.AbstractExcelWrapper.getRowIndexForStartEndElement(AbstractExcelWrapper.java:136)
+	at automation_home.ddf.wrapperimpl.ExcelWrapper.retrieveTestData(ExcelWrapper.java:48)
+	at com.testhouse.TestScript.AccountAdmin.databinding(AccountAdmin.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonOptimisticStandardSchedule -->
+      </class> <!-- com.testhouse.TestScript.AccountAdmin -->
+    </test> <!-- FFTest -->
+  </suite> <!-- Suite -->
+</testng-results>
